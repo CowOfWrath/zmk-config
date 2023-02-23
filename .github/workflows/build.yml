@@ -70,6 +70,8 @@ jobs:
         run: west init -l config
       - name: West Update
         run: west update
+      - name: West Update
+        run: west update
       - name: West Zephyr export
         run: west zephyr-export
       - name: Patch Zephyr OLED
