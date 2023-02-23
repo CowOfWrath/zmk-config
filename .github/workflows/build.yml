@@ -102,8 +102,3 @@ jobs:
         with:
           name: firmware
           path: build/artifacts
- 4  
-config/west.yml
-@@ -1,17 +1,17 @@
-manifest:
-  remotes:
